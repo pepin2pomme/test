@@ -59,6 +59,8 @@
 <body>
     <button id="myButton">La réponse est Psychose !</button>
 
+    <button id="myButton1">C quoi le nom des mangas pour filles ?</button>
+
     <div class="overlay" id="overlay"></div>
     <div id="customAlert">
         <h2>"après réfléxion, je dirais psychose"</h2>
@@ -66,10 +68,20 @@
         <br>
         <button onclick="closeAlert()">Fermer</button>
     </div>
+    <div id="customAlert1">
+        <h2>"les hentai !!"</h2>
+        <img src="monke.png" alt="monke">
+        <br>
+        <button onclick="closeAlert()">Fermer</button>
+    </div>
 
     <script>
         document.getElementById('myButton').addEventListener('click', function() {
             document.getElementById('customAlert').style.display = 'block';
+            document.getElementById('overlay').style.display = 'block';
+        });
+        document.getElementById('myButton1').addEventListener('click', function() {
+            document.getElementById('customAlert1').style.display = 'block';
             document.getElementById('overlay').style.display = 'block';
         });
 
