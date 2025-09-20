@@ -10,17 +10,12 @@ body {
 }
 
 .container {
-    background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 2rem;
     width: 90%;
     max-width: 600px;
     text-align: center;
-}
-
-h1 {
-    color: #333;
 }
 
 .buttons-container {
@@ -46,6 +41,21 @@ button:hover {
 }
 
 #imageachanger{
-    max-width: 70%;
-    max-height: auto;
+    max-width: auto;
+    height: 400px;
+}
+
+body.darkened {
+    background-color: black;
+    color: white;
+    background-image: url('img/back3.png');
+    background-size: cover; /* ou 'contain' selon l'effet souhaité */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+body.white {
+    background-color: white;
+    color: black;
 }
