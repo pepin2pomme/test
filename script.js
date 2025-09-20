@@ -8,7 +8,7 @@ const buttons = [
 const textes = [
     "après réfléxion, je dirais psychose",
     "c'est les hentais !!",
-    "squelette très menaçant"
+    "squelette très très menaçant"
 ];
 
 // Fonction pour afficher les boutons
